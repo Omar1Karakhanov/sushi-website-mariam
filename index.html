@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sushi Cake by Mariam Dolaberidze | სუში როლები და სუშის ტორტები თბილისში</title>
+<meta name="description" content="პრემიუმ ხარისხის და ზომის სუში როლები და სუშის ტორტები თბილისში. შეუკვეთეთ ტელეფონით 555 101 780 ან Instagram-ზე.">
+<meta name="theme-color" content="#120b0c">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ka_GE">
+<meta property="og:title" content="Sushi Cake by Mariam Dolaberidze">
+<meta property="og:description" content="პრემიუმ ხარისხის და ზომის სუში როლები და სუშის ტორტები თბილისში.">
+<meta property="og:image" content="images/sushi-cake.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;600;700;800&family=Noto+Serif+Georgian:wght@600;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#120b0c;
+  --ink:#1d1214;
+  --red:#c8102e;
+  --red-dark:#9d0b23;
+  --pink:#f4a3b8;
+  --pink-soft:#fde8ee;
+  --white:#fffdfd;
+  --muted:#6b5a5d;
+  --radius:18px;
+  --sans:"Noto Sans Georgian",Sylfaen,"Segoe UI",system-ui,sans-serif;
+  --serif:"Noto Serif Georgian",Sylfaen,Georgia,serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:76px;-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--white);line-height:1.65;overflow-x:hidden;padding-bottom:84px}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);line-height:1.2;margin:0}
+p{margin:0}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px;border-radius:8px}
+.site-header :focus-visible,.hero :focus-visible,.faq :focus-visible,.order-bar :focus-visible,footer :focus-visible{outline-color:var(--pink)}
+.contact-box :focus-visible{outline-color:#fff}
+.skip{position:absolute;left:12px;top:-60px;background:var(--white);color:var(--black);padding:12px 20px;border-radius:999px;z-index:100;font-weight:700}
+.skip:focus{top:12px}
+.wrap{width:min(1160px,100% - 40px);margin-inline:auto}
+
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:14px 28px;border:2px solid transparent;border-radius:999px;font-family:var(--sans);font-size:.98rem;font-weight:700;line-height:1.2;letter-spacing:.01em;text-align:center;text-decoration:none;cursor:pointer;color:#fff;background-origin:border-box;background-size:150% 150%;background-position:0 0;-webkit-tap-highlight-color:transparent;transition:transform .22s ease,box-shadow .22s ease,background-position .4s ease,background-color .22s ease,border-color .22s ease,filter .22s ease}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-red{background-image:linear-gradient(135deg,#dc1431 0%,#b80d28 50%,#8f0a20 100%);box-shadow:0 8px 20px -6px rgba(200,16,46,.55),inset 0 1px 0 rgba(255,255,255,.22)}
+.btn-ghost{background-color:rgba(255,255,255,.08);border-color:rgba(244,163,184,.65);box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
+.btn-dark{background-image:linear-gradient(135deg,#1d1214 0%,#2b171b 50%,#8f0a20 130%);box-shadow:0 8px 20px -8px rgba(18,11,12,.6),inset 0 1px 0 rgba(255,255,255,.14)}
+.btn-red:active{transform:translateY(0) scale(.98);filter:brightness(.94);box-shadow:0 3px 8px -3px rgba(200,16,46,.5),inset 0 2px 4px rgba(0,0,0,.22)}
+.btn-ghost:active{transform:translateY(0) scale(.98);background-color:rgba(244,163,184,.3);border-color:var(--pink)}
+.btn-dark:active{transform:translateY(0) scale(.98);filter:brightness(1.15);box-shadow:0 3px 8px -4px rgba(18,11,12,.6),inset 0 2px 4px rgba(0,0,0,.3)}
+
+.site-header{position:sticky;top:0;z-index:50;background:rgba(18,11,12,.94);backdrop-filter:blur(8px);color:#fff;border-bottom:1px solid rgba(244,163,184,.2)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px}
+.brand{text-decoration:none;display:flex;flex-direction:column;line-height:1.1;border-radius:8px}
+.brand strong{font-family:var(--serif);font-size:1.25rem;letter-spacing:.14em;color:var(--pink)}
+.brand span{font-size:.7rem;letter-spacing:.06em;color:rgba(255,255,255,.75)}
+.nav{display:none;gap:6px}
+.nav a{display:inline-flex;align-items:center;min-height:44px;padding:8px 16px;border-radius:999px;text-decoration:none;font-weight:700;font-size:.92rem;letter-spacing:.01em;color:#fff;-webkit-tap-highlight-color:transparent;transition:background-color .2s ease,color .2s ease,transform .2s ease}
+.nav a:active{background-color:rgba(244,163,184,.28);transform:scale(.97)}
+.header-call{min-height:44px;padding:10px 22px;font-size:.92rem}
+
+.hero{background:var(--black);color:#fff;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;width:520px;height:520px;right:-180px;top:-160px;border-radius:50%;background:var(--red);opacity:.28}
+.hero-grid{position:relative;display:grid;gap:36px;padding:44px 0 56px}
+.eyebrow{display:inline-block;color:var(--pink);font-weight:700;letter-spacing:.08em;font-size:.85rem;margin-bottom:16px}
+.hero h1{font-size:clamp(2rem,7.4vw,3.6rem);font-weight:800}
+.hero h1 em{font-style:normal;color:var(--pink)}
+.hero p.lead{margin-top:18px;font-size:1.08rem;color:rgba(255,255,255,.86);max-width:34em}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.hero-phone{margin-top:20px;font-size:.95rem;color:rgba(255,255,255,.78)}
+.hero-phone a{display:inline-flex;align-items:center;min-height:44px;margin-left:6px;padding:6px 18px;border:1.5px solid rgba(244,163,184,.5);border-radius:999px;background-color:rgba(244,163,184,.12);color:#fff;font-weight:800;font-size:1.1rem;letter-spacing:.02em;text-decoration:none;-webkit-tap-highlight-color:transparent;transition:background-color .2s ease,border-color .2s ease,transform .2s ease}
+.hero-phone a:active{background-color:rgba(244,163,184,.32);transform:scale(.97)}
+
+.ph{position:relative;overflow:hidden;background:linear-gradient(135deg,#2a1a1d,#3b1f26);border-radius:var(--radius)}
+.ph img{width:100%;height:100%;object-fit:cover}
+.ph.missing img{visibility:hidden}
+.ph.missing::after{content:attr(data-file);position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;color:var(--pink);font-size:.82rem;font-weight:600;border:2px dashed rgba(244,163,184,.55);border-radius:var(--radius);word-break:break-all}
+.hero-photo{aspect-ratio:4/5;max-height:560px;width:100%;justify-self:center;box-shadow:0 24px 60px rgba(0,0,0,.45);border:6px solid var(--white)}
+
+section{padding:68px 0}
+.section-head{max-width:40em;margin-bottom:32px}
+.section-head .kicker{color:var(--red);font-weight:800;font-size:.85rem;letter-spacing:.08em}
+.section-head h2{font-size:clamp(1.65rem,5vw,2.5rem);margin-top:8px}
+.section-head p{margin-top:12px;color:var(--muted)}
+
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+.filter{min-height:46px;padding:10px 24px;border:2px solid var(--muted);border-radius:999px;background-color:#fff;color:var(--ink);font-family:var(--sans);font-size:.95rem;font-weight:700;line-height:1.2;letter-spacing:.01em;cursor:pointer;background-origin:border-box;background-size:150% 150%;background-position:0 0;-webkit-tap-highlight-color:transparent;transition:transform .22s ease,box-shadow .22s ease,background-color .22s ease,border-color .22s ease,color .22s ease,background-position .4s ease}
+.filter:active{transform:scale(.97)}
+.filter[aria-pressed="true"]{border-color:transparent;color:#fff;background-image:linear-gradient(135deg,#dc1431 0%,#b80d28 50%,#8f0a20 100%);box-shadow:0 8px 18px -6px rgba(200,16,46,.55),inset 0 1px 0 rgba(255,255,255,.22)}
+.filter:not([aria-pressed="true"]):active{background-color:var(--pink-soft);border-color:var(--red-dark)}
+
+.menu-grid{display:grid;grid-template-columns:1fr;gap:28px 22px;list-style:none;margin:0;padding:0}
+.item[hidden]{display:none}
+.item-photo{aspect-ratio:4/5;transition:transform .35s ease,box-shadow .35s ease}
+.item h3{font-size:1.15rem;margin-top:14px}
+.item .tag{display:inline-block;margin-top:8px;font-size:.78rem;font-weight:700;color:var(--red-dark);background:var(--pink-soft);padding:3px 12px;border-radius:999px}
+.item p{margin-top:8px;color:var(--muted);font-size:.95rem}
+.ask{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-top:14px;padding:10px 22px;border:2px solid var(--red-dark);border-radius:999px;background-color:transparent;color:var(--red-dark);font-family:var(--sans);font-size:.9rem;font-weight:700;line-height:1.2;letter-spacing:.01em;text-decoration:none;-webkit-tap-highlight-color:transparent;transition:transform .22s ease,box-shadow .22s ease,background-color .22s ease,color .22s ease}
+.ask:active{transform:scale(.97);background-color:var(--red-dark);color:#fff}
+.empty{display:none;padding:24px;background:var(--pink-soft);border-radius:var(--radius)}
+.empty.show{display:block}
+
+.cake{background:var(--pink-soft)}
+.cake-grid{display:grid;gap:32px;align-items:center}
+.cake-photos{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cake-photos .ph{aspect-ratio:3/4}
+.cake-photos .ph:first-child{transform:translateY(-14px)}
+.cake h2{font-size:clamp(1.65rem,5vw,2.5rem)}
+.cake p{margin-top:14px;color:var(--ink)}
+.cake .btn{margin-top:24px}
+
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:18px;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:56px 1fr;gap:16px;align-items:start;padding:20px 0;border-top:2px solid var(--black)}
+.steps li::before{content:counter(s);font-family:var(--serif);font-weight:800;font-size:2.6rem;line-height:1;color:var(--red)}
+.steps h3{font-size:1.15rem}
+.steps p{margin-top:6px;color:var(--muted)}
+
+.faq{background:var(--black);color:#fff}
+.faq .section-head p{color:rgba(255,255,255,.75)}
+.faq .kicker{color:var(--pink)}
+details{border-top:1px solid rgba(255,255,255,.2)}
+details:last-of-type{border-bottom:1px solid rgba(255,255,255,.2)}
+summary{list-style:none;cursor:pointer;padding:20px 48px 20px 0;font-weight:700;font-size:1.05rem;position:relative;min-height:56px;transition:color .2s ease}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:0;top:50%;display:flex;align-items:center;justify-content:center;width:34px;height:34px;margin-top:-17px;border:1.5px solid rgba(244,163,184,.5);border-radius:50%;font-size:1.3rem;line-height:1;color:var(--pink);transition:transform .25s ease,background-color .2s ease}
+details[open] summary::after{transform:rotate(45deg)}
+summary:active{color:var(--pink)}
+details p{padding:0 0 20px;color:rgba(255,255,255,.82);max-width:46em}
+
+.contact-box{display:grid;gap:28px;background:linear-gradient(135deg,#d9142f 0%,#b80d28 60%,#9d0b23 100%);color:#fff;border-radius:28px;padding:36px 24px}
+.contact-box h2{font-size:clamp(1.65rem,5vw,2.4rem)}
+.contact-box p{margin-top:10px;color:rgba(255,255,255,.95)}
+.contact-list{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.contact-list a{display:flex;align-items:center;gap:14px;min-height:60px;padding:12px 22px;border-radius:999px;background-color:#fff;color:var(--black);text-decoration:none;font-weight:700;letter-spacing:.01em;box-shadow:0 8px 18px -10px rgba(18,11,12,.55);-webkit-tap-highlight-color:transparent;transition:transform .22s ease,box-shadow .22s ease,background-color .22s ease}
+.contact-list a:active{transform:scale(.985);background-color:var(--pink-soft);box-shadow:0 2px 6px -3px rgba(18,11,12,.5)}
+.contact-list svg{width:22px;height:22px;flex:none;color:var(--red)}
+.contact-list small{display:block;font-weight:400;color:var(--muted);font-size:.78rem;line-height:1.2}
+
+footer{background:var(--black);color:rgba(255,255,255,.75);padding:32px 0;font-size:.9rem}
+.foot{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between;align-items:center}
+footer a{display:inline-flex;align-items:center;min-height:44px;padding:6px 18px;border:1.5px solid rgba(244,163,184,.5);border-radius:999px;color:var(--pink);font-weight:700;text-decoration:none;-webkit-tap-highlight-color:transparent;transition:background-color .2s ease,color .2s ease,transform .2s ease}
+footer a:active{background-color:var(--pink);color:var(--black);transform:scale(.97)}
+
+.order-bar{position:fixed;left:0;right:0;bottom:0;z-index:60;display:flex;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(18,11,12,.96);border-top:1px solid rgba(244,163,184,.3)}
+.order-bar .btn{flex:1;min-height:52px;padding:10px 14px;font-size:.95rem}
+
+.js .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+.js .reveal.in{opacity:1;transform:none}
+
+@media (hover:hover){
+  .btn:hover{transform:translateY(-2px);background-position:100% 100%}
+  .btn-red:hover{box-shadow:0 14px 28px -8px rgba(200,16,46,.65),inset 0 1px 0 rgba(255,255,255,.26)}
+  .btn-ghost:hover{background-color:rgba(244,163,184,.24);border-color:var(--pink);box-shadow:0 10px 22px -10px rgba(244,163,184,.5),inset 0 1px 0 rgba(255,255,255,.16)}
+  .btn-dark:hover{box-shadow:0 14px 28px -10px rgba(143,10,32,.7),inset 0 1px 0 rgba(255,255,255,.18)}
+  .nav a:hover{background-color:rgba(244,163,184,.18);color:var(--pink)}
+  .hero-phone a:hover{background-color:rgba(244,163,184,.26);border-color:var(--pink);transform:translateY(-1px)}
+  .filter:not([aria-pressed="true"]):hover{background-color:var(--pink-soft);border-color:var(--red-dark);color:var(--red-dark);transform:translateY(-1px)}
+  .filter[aria-pressed="true"]:hover{transform:translateY(-1px);background-position:100% 100%;box-shadow:0 12px 24px -8px rgba(200,16,46,.6),inset 0 1px 0 rgba(255,255,255,.26)}
+  .ask:hover{background-color:var(--pink-soft);transform:translateY(-1px);box-shadow:0 8px 16px -8px rgba(157,11,35,.45)}
+  .item:hover .item-photo{transform:translateY(-4px);box-shadow:0 18px 36px rgba(200,16,46,.22)}
+  summary:hover{color:var(--pink)}
+  summary:hover::after{background-color:rgba(244,163,184,.16)}
+  .contact-list a:hover{transform:translateY(-2px);background-color:var(--pink-soft);box-shadow:0 14px 24px -10px rgba(18,11,12,.6)}
+  footer a:hover{background-color:rgba(244,163,184,.16)}
+}
+
+@media (min-width:640px){
+  .menu-grid{grid-template-columns:repeat(2,1fr)}
+  .contact-box{padding:48px}
+}
+@media (min-width:900px){
+  body{padding-bottom:0}
+  .nav{display:flex}
+  .order-bar{display:none}
+  .hero-grid{grid-template-columns:1.1fr .9fr;align-items:center;padding:72px 0 88px}
+  .menu-grid{grid-template-columns:repeat(4,1fr)}
+  .cake-grid{grid-template-columns:1fr 1fr;gap:64px}
+  .steps{grid-template-columns:repeat(3,1fr);gap:28px}
+  .contact-box{grid-template-columns:1.1fr .9fr;align-items:center}
+  section{padding:96px 0}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms !important;transition-duration:.01ms !important}
+  .btn:hover,.btn:active,.filter:hover,.filter:active,.ask:hover,.ask:active,.nav a:active,.hero-phone a:hover,.hero-phone a:active,.contact-list a:hover,.contact-list a:active,footer a:active,.item:hover .item-photo{transform:none}
+  .btn:hover{background-position:0 0}
+  .js .reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#menu">გადასვლა მენიუზე</a>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="Sushi Cake by Mariam Dolaberidze, მთავარი გვერდი">
+      <strong>SUSHI CAKE</strong>
+      <span>by Mariam Dolaberidze</span>
+    </a>
+    <nav class="nav" aria-label="მთავარი ნავიგაცია">
+      <a href="#menu">მენიუ</a>
+      <a href="#cake">სუშის ტორტები</a>
+      <a href="#order">როგორ შევუკვეთო</a>
+      <a href="#faq">კითხვები</a>
+      <a href="#contact">კონტაქტი</a>
+    </nav>
+    <a class="btn btn-red header-call" href="tel:+995555101780">555 101 780</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" style="padding:0">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">თბილისი · სუში შეკვეთით</span>
+        <h1>პრემიუმ ხარისხის <em>სუში როლები</em> და სუშის ტორტები</h1>
+        <p class="lead">პრემიუმ ხარისხისა და ზომის სუში როლები და სუშის ტორტები თბილისში. აირჩიეთ ფოტოებიდან და შეგვიკვეთეთ ერთი ზარით ან Instagram-ზე შეტყობინებით.</p>
+        <div class="hero-actions">
+          <a class="btn btn-red" href="tel:+995555101780">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+            დაგვირეკეთ და შეუკვეთეთ
+          </a>
+          <a class="btn btn-ghost" href="https://ig.me/m/sushi_by_mariam_dolaberidze" target="_blank" rel="noopener">მოგვწერეთ Instagram-ზე</a>
+        </div>
+        <p class="hero-phone">შეკვეთის ნომერი: <a href="tel:+995555101780">555 101 780</a></p>
+      </div>
+      <div class="ph hero-photo" data-file="images/sushi-cake.jpg">
+        <img src="https://i.pinimg.com/736x/98/f2/68/98f268a1a052ce11f8687110c5b8305a.jpg" width="800" height="1000" alt="მრავალსართულიანი სუშის ტორტი სხვადასხვა ფერის როლებით, ორაგულით და ციტრუსით" fetchpriority="high">
+      </div>
+    </div>
+  </section>
+
+  <section id="menu" aria-labelledby="menu-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">ჩვენი ნამუშევრები</span>
+        <h2 id="menu-title">აირჩიეთ თქვენთვის სასურველი სუში</h2>
+        <p>ფასებისა და შემადგენლობის დასაზუსტებლად დაგვირეკეთ ან მოგვწერეთ Instagram-ზე.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="კატეგორიის არჩევა">
+        <button class="filter" type="button" data-filter="all" aria-pressed="true">ყველა</button>
+        <button class="filter" type="button" data-filter="rolls" aria-pressed="false">სუში როლები</button>
+      </div>
+
+      <ul class="menu-grid" id="menuGrid">
+        <li class="item reveal" data-cat="rolls">
+          <div class="ph item-photo" data-file="images/roll-golden.jpg"><img loading="lazy" src="./sushi-1-(1).png" width="640" height="800" alt="ოქროსფერი ზედაპირის სუში როლები შავ ქვის თეფშზე, ჯანჯაფილითა და ვასაბით"></div>
+          <h3>ოქროსფერი როლები</h3>
+          <span class="tag">სუში როლები</span>
+          <p>გამომცხვარი ოქროსფერი ზედაპირით.</p>
+          <a class="ask" href="tel:+995555101780">ფასის გასაგებად დაგვირეკეთ</a>
+        </li>
+        <li class="item reveal" data-cat="rolls">
+          <div class="ph item-photo" data-file="images/roll-red-tobiko.jpg"><img loading="lazy" src="./sushi-1-(2).png" width="640" height="800" alt="წითელი ტობიკოთი დაფარული სუში როლები ჯანჯაფილითა და ვასაბით"></div>
+          <h3>როლები წითელი ტობიკოთი</h3>
+          <span class="tag">სუში როლები</span>
+          <p>კაშკაშა წითელი ზედაპირით.</p>
+          <a class="ask" href="tel:+995555101780">ფასის გასაგებად დაგვირეკეთ</a>
+        </li>
+        <li class="item reveal" data-cat="rolls">
+          <div class="ph item-photo" data-file="images/roll-salmon-black.jpg"><img loading="lazy" src="./sushi-1-(3).png" width="640" height="800" alt="ორაგულით და წითელი ტობიკოთი დაფარული შავი სუში როლები"></div>
+          <h3>ორაგულიანი შავი როლები</h3>
+          <span class="tag">სუში როლები</span>
+          <p>ორაგულით და წითელი ტობიკოთი.</p>
+          <a class="ask" href="tel:+995555101780">ფასის გასაგებად დაგვირეკეთ</a>
+        </li>
+        <li class="item reveal" data-cat="rolls">
+          <div class="ph item-photo" data-file="images/roll-black-sesame.jpg"><img loading="lazy" src="./sushi-1-(4).png" width="640" height="800" alt="შავი ზედაპირის სუში როლები ბნელ ხის ფონზე"></div>
+          <h3>შავი როლები</h3>
+          <span class="tag">სუში როლები</span>
+          <p>შავი გარსით, ორაგულის შიგთავსით.</p>
+          <a class="ask" href="tel:+995555101780">ფასის გასაგებად დაგვირეკეთ</a>
+        </li>
+        <li class="item reveal" data-cat="rolls">
+          <div class="ph item-photo" data-file="images/roll-salmon.jpg"><img loading="lazy" src="./sushi-1-(5).png" width="640" height="800" alt="ორაგულის ნაჭრებით დაფარული სუში როლები შავ ქვის თეფშზე"></div>
+          <h3>ორაგულიანი როლები</h3>
+          <span class="tag">სუში როლები</span>
+          <p>ორაგულის ნაჭრებით დაფარული როლები.</p>
+          <a class="ask" href="tel:+995555101780">ფასის გასაგებად დაგვირეკეთ</a>
+        </li>
+        <li class="item reveal" data-cat="rolls">
+          <div class="ph item-photo" data-file="images/roll-salmon-caviar.jpg"><img loading="lazy" src="./sushi-1-(6).png" width="640" height="800" alt="ორაგულიანი სუში როლები შავი ხიზილალის დეკორით"></div>
+          <h3>ორაგულიანი როლები ხიზილალით</h3>
+          <span class="tag">სუში როლები</span>
+          <p>ორაგულით და შავი დეკორით.</p>
+          <a class="ask" href="tel:+995555101780">ფასის გასაგებად დაგვირეკეთ</a>
+        </li>
+          </ul>
+      <p class="empty" id="emptyState" role="status">ამ კატეგორიაში პროდუქცია ვერ მოიძებნა.</p>
+    </div>
+  </section>
+
+  <section id="cake" class="cake" aria-labelledby="cake-title">
+    <div class="wrap cake-grid">
+      <div class="cake-photos reveal">
+        <div class="ph" data-file="images/cake-tier.jpg"><img loading="lazy" src="./sushi-torti.jpeg" width="600" height="800" alt="სუშის ტორტი ფერადი როლებისგან"></div>
+        <div class="ph" data-file="images/cake-box.jpg"><img loading="lazy" src="./sushi-toooort-11.jpeg" width="600" height="800" alt="სუშის ტორტი ყვავილებითა და ფერადი როლებით"></div>
+      </div>
+      <div class="reveal">
+        <h2 id="cake-title">სუშის ტორტი თქვენი დღესასწაულისთვის</h2>
+        <p>სუშის ტორტი სუშის მოყვარულთა სადღესასწაულო შეკვეთაა. ის როლებისგან არის აწყობილი და ფერადად მორთული.</p>
+        <p>ტორტის ზომის, დიზაინისა და ფასის დასაზუსტებლად დაგვიკავშირდით.</p>
+        <a class="btn btn-dark" href="tel:+995555101780">დაგვირეკეთ: 555 101 780</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="order" aria-labelledby="order-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">მარტივი შეკვეთა</span>
+        <h2 id="order-title">როგორ შევუკვეთო</h2>
+      </div>
+      <ol class="steps">
+        <li class="reveal"><div><h3>აირჩიეთ სუში</h3><p>დაათვალიერეთ მენიუ და აირჩიეთ როლები ან სუშის ტორტი.</p></div></li>
+        <li class="reveal"><div><h3>დაგვიკავშირდით</h3><p>დაგვირეკეთ 555 101 780 ნომერზე ან მოგვწერეთ Instagram-ზე.</p></div></li>
+        <li class="reveal"><div><h3>დააზუსტეთ დეტალები</h3><p>შეათანხმეთ შემადგენლობა, ფასი და მიღების დეტალები.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="faq" class="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">ხშირი კითხვები</span>
+        <h2 id="faq-title">რაც გაინტერესებთ</h2>
+      </div>
+      <details>
+        <summary>როგორ შემიძლია შეკვეთა?</summary>
+        <p>დაგვირეკეთ ნომერზე 555 101 780 ან მოგვწერეთ Instagram-ის გვერდზე sushi_by_mariam_dolaberidze.</p>
+      </details>
+      <details>
+        <summary>რომელ ქალაქში მუშაობთ?</summary>
+        <p>ჩვენ ვმუშაობთ თბილისში. მიწოდების ან გატანის დეტალებისთვის დაგვიკავშირდით.</p>
+      </details>
+      <details>
+        <summary>სად ვნახო ფასები?</summary>
+        <p>ფასები შეკვეთის დროს დაიზუსტება, რადგან ის დამოკიდებულია არჩეულ სუშისა და ტორტის ზომაზე.</p>
+      </details>
+      <details>
+        <summary>შეიძლება სუშის ტორტის შეკვეთა?</summary>
+        <p>დიახ, სუშის ტორტები ჩვენი ძირითადი შეთავაზებაა. დიზაინისა და ზომის დასაზუსტებლად დაგვიკავშირდით.</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="contact-box reveal">
+        <div>
+          <h2 id="contact-title">მზად ხართ შესაკვეთად?</h2>
+          <p>დაგვირეკეთ ან მოგვწერეთ, და ერთად შევარჩევთ სუშის იდეალურ ნაკრებს.</p>
+        </div>
+        <ul class="contact-list">
+          <li><a href="tel:+995555101780">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+            <span><small>ტელეფონი</small>555 101 780</span></a></li>
+          <li><a href="https://ig.me/m/sushi_by_mariam_dolaberidze" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+            <span><small>Instagram შეტყობინება</small>@sushi_by_mariam_dolaberidze</span></a></li>
+          <li><a href="https://www.instagram.com/sushi_by_mariam_dolaberidze/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.1 0l3-3a5 5 0 0 0-7.1-7.1l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.1 0l-3 3A5 5 0 0 0 11 21.1l1.7-1.7"/></svg>
+            <span><small>ყველა ნამუშევარი</small>Instagram გვერდის ნახვა</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© <span id="year">2026</span> Sushi Cake by Mariam Dolaberidze · თბილისი</span>
+    <a href="https://www.instagram.com/sushi_by_mariam_dolaberidze/" target="_blank" rel="noopener">Instagram</a>
+  </div>
+</footer>
+
+<div class="order-bar" role="region" aria-label="სწრაფი შეკვეთა">
+  <a class="btn btn-red" href="tel:+995555101780">დარეკვა</a>
+  <a class="btn btn-ghost" href="https://ig.me/m/sushi_by_mariam_dolaberidze" target="_blank" rel="noopener">Instagram</a>
+</div>
+
+<script>
+(function(){
+  document.documentElement.classList.add('js');
+  document.getElementById('year').textContent=new Date().getFullYear();
+
+  function markMissing(img){
+    var box=img.closest('.ph');
+    if(box){box.classList.add('missing');}
+  }
+  document.querySelectorAll('.ph img').forEach(function(img){
+    img.addEventListener('error',function(){markMissing(img);});
+    if(img.complete&&img.naturalWidth===0){markMissing(img);}
+  });
+
+  var buttons=document.querySelectorAll('.filter');
+  var items=document.querySelectorAll('#menuGrid .item');
+  var empty=document.getElementById('emptyState');
+  buttons.forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var f=btn.getAttribute('data-filter');
+      var shown=0;
+      buttons.forEach(function(b){b.setAttribute('aria-pressed',b===btn?'true':'false');});
+      items.forEach(function(it){
+        var match=f==='all'||it.getAttribute('data-cat')===f;
+        it.hidden=!match;
+        if(match){shown++;it.classList.add('in');}
+      });
+      empty.classList.toggle('show',shown===0);
+    });
+  });
+
+  var reveals=document.querySelectorAll('.reveal');
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce||!('IntersectionObserver' in window)){
+    reveals.forEach(function(el){el.classList.add('in');});
+  }else{
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}
+      });
+    },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+    reveals.forEach(function(el){io.observe(el);});
+  }
+})();
+</script>
+</body>
+</html>
